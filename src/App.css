@@ -1,38 +1,221 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Peddana&family=Raleway:wght@400;531&display=swap');
+*{
+  /* background-color: #0a192f;  */
+  /* color:#91FEF6; */
+  color: #8892B0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+  --mainbg: #0a192f;
+  --hovertxt:#91FEF6; 
+  --maintxt:#8892B0; 
+  --cardbg: #172a45;
+  --headclr:#C0C5C4;
+  
+}
+/* nav ul{
+  
+} */
+nav{
+  /* box-shadow: none !important; */
+  /* border-top: none !important; */
+  background-color: var(--mainbg);
+  display:inline-block;
+  /* box-shadow: 0 2px 2px -1px rgba(0,0,0,.8) !important; */
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 8px 6px -6px black;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.brand-logo{
+  padding-bottom: 40px !important;
+  color: var(--maintxt) !important;
+  background: url(./images/logo.png);
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.navItem{
+  color: var(--maintxt) !important;
+}
+.navItem:hover{
+  color: var(--hovertxt) !important;
+}
+.menu_active{
+  color: var(--hovertxt) !important;
+  border-bottom: 1px solid var(--hovertxt);
+}
+p{
+  font-size: 18px;
+}
+.intropara{
+  padding-top: 40px;
+  color: var(--hovertxt);
+}
+section{
+  padding-bottom: 200px;
+  background-color: var(--mainbg);
+margin-top: -5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.name{
+  color: #C0C5C4;
+  font-weight: bolder;
+ 
+  text-shadow: 0 0 3px var(--hovertxt) !important;
+}
+.desc{
+ 
+  color: rgba(192, 197, 196, .8);
+  font-weight: bold;
+  
+}
+
+.longdesc{
+  font-family: raleway;
+  font-size: 23px !important;
+}
+
+.footList{
+  position: -webkit-sticky !important;
+  position: sticky;
+  top: 0;
+  padding-left: 80px !important;
+  font-size: 20px;
+}
+
+
+.leftbar{
+
+  left: 80px !important;
+  bottom: 100px !important;
+}
+/* .footerLink{
+background-color: var(--mainbg) !important;
+} */
+
+.footListItem{
+  /* margin-top: 15px !important;
+  margin-bottom: 15px !important; */
+  font-size: 25px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.footListItem:hover{
+  color:var(--hovertxt) !important;
+}
+
+.about{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: bold;
+  color: #C0C5C4;
+  
+  }
+  .about::after {
+    content: '';
+    flex: 1;
+    margin-left: 1rem;
+    height: 1px;
+    background-color: var(--maintxt);
+  }
+
+
+::before, ::after {
+  box-sizing: inherit;
 }
 
-.App-link {
-  color: #61dafb;
+.tech{
+  display: flex;
+
+}
+.techlist{
+  margin-right: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-angle-right{
+  color: var(--hovertxt);
+}
+
+img{
+  object-fit: cover !important;
+  /* z-index: 1; */
+}
+
+.main_header{
+  
+  margin-left: 100px !important;
+  margin-top: 50px;
+  width: 300px !important; 
+  height: 300px !important;
+  display: grid !important;
+  place-items: center !important;
+  /* box-sizing: border-box; */
+}
+
+.design{
+  position: relative !important;
+  width: 300px !important;
+  height: 300px !important;
+  /* box-sizing: border-box; */
+}
+
+.design > *, .blend > *{
+  
+  position: absolute !important;
+  /* margin-top: 90px;
+  margin-left: 50px; */
+  width: 300px !important;
+  height: 300px !important;
+  /* box-sizing: border-box; */
+} 
+
+#rotateBorder{
+  border: 15px solid var(--hovertxt) !important;
+  transform: rotate(45deg) !important;
+  box-shadow: 0px 0px 10px var(--hovertxt), inset 0 0 20px var(--hovertxt) !important;
+
+}
+/* img{
+  object-fit: cover !important;
+  z-index: ;
+} */
+.grid{
+  display: grid !important;
+  grid-template-rows: 1fr 1fr !important;
+  grid-template-columns: 1fr 1fr !important;
+}
+
+.data-white{
+  background: #fff !important;
+}
+
+.blend{
+  mix-blend-mode: multiply !important;
+}
+
+
+.card{
+  background-color: var(--cardbg);
+}
+.card-title{
+  color: var(--headclr);
+  font-weight: bolder !important;
+}
+.card-content{
+  height: 150px;
+}
+
+.footer{
+  background-color: var(--mainbg) !important;
+}
+
+.footerul li{
+  display: inline-flex;
 }
