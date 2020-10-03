@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.e466bc28.chunk.css",
-    "main.js": "/static/js/main.6ef0dd38.chunk.js",
-    "main.js.map": "/static/js/main.6ef0dd38.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.442e77f1.chunk.js": "/static/js/2.442e77f1.chunk.js",
-    "static/js/2.442e77f1.chunk.js.map": "/static/js/2.442e77f1.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4826c3314b6ac61e81c4dab1c30c61b7.js": "/precache-manifest.4826c3314b6ac61e81c4dab1c30c61b7.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.e466bc28.chunk.css.map": "/static/css/main.e466bc28.chunk.css.map",
-    "static/js/2.442e77f1.chunk.js.LICENSE.txt": "/static/js/2.442e77f1.chunk.js.LICENSE.txt",
-    "static/media/MyPic.jpeg": "/static/media/MyPic.8240d16d.jpeg",
-    "static/media/App.css": "/static/media/logo.b3bee91a.png"
+    "main.css": "/DemoReactjsPortfolio/static/css/main.c125a653.chunk.css",
+    "main.js": "/DemoReactjsPortfolio/static/js/main.6ef0dd38.chunk.js",
+    "main.js.map": "/DemoReactjsPortfolio/static/js/main.6ef0dd38.chunk.js.map",
+    "runtime-main.js": "/DemoReactjsPortfolio/static/js/runtime-main.7e34a20c.js",
+    "runtime-main.js.map": "/DemoReactjsPortfolio/static/js/runtime-main.7e34a20c.js.map",
+    "static/js/2.442e77f1.chunk.js": "/DemoReactjsPortfolio/static/js/2.442e77f1.chunk.js",
+    "static/js/2.442e77f1.chunk.js.map": "/DemoReactjsPortfolio/static/js/2.442e77f1.chunk.js.map",
+    "index.html": "/DemoReactjsPortfolio/index.html",
+    "precache-manifest.98f79208f68af46abd9c02c91e839780.js": "/DemoReactjsPortfolio/precache-manifest.98f79208f68af46abd9c02c91e839780.js",
+    "service-worker.js": "/DemoReactjsPortfolio/service-worker.js",
+    "static/css/main.c125a653.chunk.css.map": "/DemoReactjsPortfolio/static/css/main.c125a653.chunk.css.map",
+    "static/js/2.442e77f1.chunk.js.LICENSE.txt": "/DemoReactjsPortfolio/static/js/2.442e77f1.chunk.js.LICENSE.txt",
+    "static/media/MyPic.jpeg": "/DemoReactjsPortfolio/static/media/MyPic.8240d16d.jpeg",
+    "static/media/App.css": "/DemoReactjsPortfolio/static/media/logo.b3bee91a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/runtime-main.7e34a20c.js",
     "static/js/2.442e77f1.chunk.js",
-    "static/css/main.e466bc28.chunk.css",
+    "static/css/main.c125a653.chunk.css",
     "static/js/main.6ef0dd38.chunk.js"
   ]
 }
